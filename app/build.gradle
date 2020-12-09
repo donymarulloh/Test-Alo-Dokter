@@ -42,11 +42,11 @@ android {
             minifyEnabled false
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField "String", "BASE_URL", "\"http://api.mocki.io/v1/\""
+            buildConfigField "String", "BASE_URL", "\"https://api.mocki.io/v1/\""
             resValue "string", "app_alias_name", appName
         }
         debug {
-            buildConfigField "String", "BASE_URL", "\"http://api.mocki.io/v1/\""
+            buildConfigField "String", "BASE_URL", "\"https://api.mocki.io/v1/\""
             resValue "string", "app_alias_name", "Dev " + appName
         }
     }

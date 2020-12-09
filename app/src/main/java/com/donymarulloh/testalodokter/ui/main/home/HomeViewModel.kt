@@ -2,8 +2,7 @@ package com.donymarulloh.testalodokter.ui.main.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.donymarulloh.newsapp.data.model.sources.Sources
-import com.donymarulloh.testalodokter.data.mapper.SourcesDataMapper
+import com.donymarulloh.testalodokter.data.mapper.GambarDataMapper
 import com.donymarulloh.testalodokter.data.model.gambar.Gambar
 import com.donymarulloh.testalodokter.data.repository.Repository
 import com.donymarulloh.testalodokter.ui.adapter.viewholder.LoadingStateItem
@@ -38,7 +37,7 @@ class HomeViewModel (
             .observeOn(schedulerProvider.ui())
             .map {
                 sourcesList = it
-                val transformedList = SourcesDataMapper.transform(it).toMutableList()
+                val transformedList = GambarDataMapper.transform(it).toMutableList()
 
                 transformedList.toList()
             }

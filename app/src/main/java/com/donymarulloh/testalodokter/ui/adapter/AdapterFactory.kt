@@ -33,7 +33,7 @@ fun createAdapter(
     )
 
     register(
-        layoutResource = R.layout.item_sources,
+        layoutResource = R.layout.item_list,
         viewHolder = ::SourcesItemViewHolder,
         onBindViewHolder = { sourcesItemHolder, _, sourcesItem ->
             with(sourcesItemHolder) {

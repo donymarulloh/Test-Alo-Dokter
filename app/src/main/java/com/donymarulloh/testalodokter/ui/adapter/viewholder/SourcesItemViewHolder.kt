@@ -4,7 +4,7 @@ import android.util.Log
 import android.view.View
 import com.bumptech.glide.Glide
 import com.donymarulloh.testalodokter.data.model.gambar.ImagesItem
-import com.donymarulloh.testalodokter.databinding.ItemSourcesBinding
+import com.donymarulloh.testalodokter.databinding.ItemListBinding
 import com.donymarulloh.testalodokter.ui.base.BaseViewItem
 import me.ibrahimyilmaz.kiel.core.RecyclerViewHolder
 
@@ -17,7 +17,7 @@ data class GambarItem(
 }
 
 class SourcesItemViewHolder(itemView : View) : RecyclerViewHolder<GambarItem>(itemView) {
-    val binding: ItemSourcesBinding = ItemSourcesBinding.bind(itemView)
+    val binding: ItemListBinding = ItemListBinding.bind(itemView)
     override fun bind(position: Int, item: GambarItem) {
         super.bind(position, item)
         with(binding) {

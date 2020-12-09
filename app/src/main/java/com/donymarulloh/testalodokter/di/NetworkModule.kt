@@ -31,7 +31,7 @@ val networkModule = module {
     }
 
     single{
-        Retrofit.Builder().baseUrl("https://api.mocki.io/v1/")
+        Retrofit.Builder().baseUrl(BuildConfig.BASE_URL)
             .client(get<OkHttpClient>())
             .addCallAdapterFactory(RxJava2CallAdapterFactory.createWithScheduler(Schedulers.io()))
             .addConverterFactory(GsonConverterFactory.create())

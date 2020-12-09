@@ -1,8 +1,6 @@
 package com.donymarulloh.testalodokter.data.repository
 
-import com.donymarulloh.newsapp.data.model.sources.Sources
 import com.donymarulloh.testalodokter.data.source.remote.AppRemoteSource
-import com.donymarulloh.testalodokter.data.model.LoginOverview
 import com.donymarulloh.testalodokter.data.model.gambar.Gambar
 import com.donymarulloh.testalodokter.data.model.login.LoginRequest
 import com.donymarulloh.testalodokter.data.model.login.LoginResponse
