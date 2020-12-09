@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Test Alo Dokter</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="chooses_category">Choose Category</string>
+
+    <!--  Eror  -->
+    <string name="general_error_title">Snap!</string>
+    <string name="general_error_description">Sorry something went wrong</string>
+    <string name="connection_error_title">Couldn\'t connect to Internet</string>
+    <string name="connection_error_description">There may be a problem with your connection</string>
+    <string name="msg_unexpected_error">Cannot proceed your request, please try again later</string>
+    <string name="retry">Retry</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>
